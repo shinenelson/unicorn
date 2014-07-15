@@ -1,5 +1,65 @@
 /*impressJS CSS*/
 
+@font-face {
+	font-family: "Open Sans Bold";
+	src: url(../assets/fonts/open-sans/OpenSans-Bold.ttf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Open Sans Bold Italic";
+	src: url(../assets/fonts/open-sans/OpenSans-BoldItalic.ttf);
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Open Sans Extra-Bold";
+	src: url(../assets/fonts/open-sans/OpenSans-ExtraBold.ttf);
+	font-weight: bolder;
+}
+
+@font-face {
+	font-family: "Open Sans Extra-Bold Italic";
+	src: url(../assets/fonts/open-sans/OpenSans-ExtraBoldItalic.ttf);
+	font-weight: bolder;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Open Sans Italic";
+	src: url(../assets/fonts/open-sans/OpenSans-Italic.ttf);
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Open Sans Light";
+	src: url(../assets/fonts/open-sans/OpenSans-Light.ttf);
+}
+
+@font-face {
+	font-family: "Open Sans Light Italic";
+	src: url(../assets/fonts/open-sans/OpenSans-LightItalic.ttf);
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Open Sans Regular";
+	src: url(../assets/fonts/open-sans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: "Open Sans Semi-Bold";
+	src: url(../assets/fonts/open-sans/OpenSans-Semibold.ttf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Open Sans Semi-Bold Italic";
+	src: url(../assets/fonts/open-sans/OpenSans-semiboldItalic.ttf);
+	font-weight: bold;
+}
+
 body
 {
     font-family: 'Open Sans', sans-serif;
