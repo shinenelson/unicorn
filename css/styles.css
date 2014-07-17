@@ -1,0 +1,9 @@
+#bg
+{
+    width: 1114px;
+    height: 800px;
+    padding-bottom: 300px;
+
+    background-image: url(../assets/img/unicorn.jpg);
+    background-position: center;
+}
