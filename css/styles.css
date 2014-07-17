@@ -1,3 +1,37 @@
+@font-face {
+	font-family: "Ozzy";
+	src: url(../assets/fonts/OzzyII.ttf);
+}
+
+#uni {
+	font-family: "Ozzy";
+	font-size: 150%;
+
+	margin-top: 25%;
+}
+
+#cover-details {
+	line-height: 1.25;
+	font-size: 75%;
+	margin-top: 2.5%;
+}
+
+#tag {
+	font-size: 85%;
+}
+
+
+
+#fb
+{
+    width: 996px;
+    height: 470px;
+    padding-bottom: 300px;
+
+    background-image: url(../assets/img/GraphSearch_facebook.png);
+    background-position: center;
+}
+
 #bg
 {
     width: 1114px;
