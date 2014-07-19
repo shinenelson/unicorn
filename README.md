@@ -12,5 +12,10 @@ Example Queries :
 This presentation was made for my university's semester 7 seminar pursuing my undergraduate degreee in Computer Science & Engineering from Kerala University, India.
 
 Credits :
-1. Presentation Framework : [impressJS](https://github.com/bartaz/impress.js) - [Bartek Szopka](https://github.com/bartaz)
-2. Seminar Paper : [Unicorn - A System for Searching the Social Graph](https://www.facebook.com/publications/219621248185635/) - Courtesy of facebook
+1. Seminar Paper : [Unicorn - A System for Searching the Social Graph](https://www.facebook.com/publications/219621248185635/) - Courtesy of facebook
+2. Presentation Framework : [impressJS](https://github.com/bartaz/impress.js) - [Bartek Szopka](https://github.com/bartaz)
+3. Font : [Open-Sans](https://www.google.com/fonts/specimen/Open+Sans) 
+4. Title Font : Ozzy II
+
+Direct Presentation Link : (https://shinescodes.github.io/unicorn)
+Download Link : (https://github.com/shinescodes/unicorn/archive/master.zip)
