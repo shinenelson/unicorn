@@ -3,6 +3,11 @@
 	src: url(../assets/fonts/OzzyII.ttf);
 }
 
+sup {
+	vertical-align: super;
+	font-size: small;
+}
+
 #uni {
 	font-family: "Ozzy";
 	font-size: 150%;
@@ -20,7 +25,25 @@
 	font-size: 85%;
 }
 
+#credits {
+	font-size: 1.25em;
+}
 
+.cred-title {
+	text-decoration: underline;
+	font-size: 1.5em;
+	font-weight: bold;
+	text-align: center;
+	line-height: 2;
+}
+
+#biblio-content {
+	margin-left: 25%;
+}
+
+#cred-content ul ul li {
+	margin-left: 5%;
+}
 
 #fb
 {
