@@ -10,19 +10,85 @@ sup {
 
 #uni {
 	font-family: "Ozzy";
-	font-size: 150%;
-
+	font-size: 1.5em;
 	margin-top: 25%;
 }
 
 #cover-details {
 	line-height: 1.25;
-	font-size: 75%;
+	font-size: 0.75em;
 	margin-top: 2.5%;
 }
 
 #tag {
-	font-size: 85%;
+	font-size: 0.85em;
+}
+
+#fb-graph
+{
+    width: 996px;
+    height: 470px;
+
+    background-image: url(../assets/img/GraphSearch_facebook.png);
+    background-position: center;
+}
+
+#bg
+{
+    width: 1114px;
+    height: 800px;
+
+    background-image: url(../assets/img/unicorn.jpg);
+    background-position: center;
+}
+
+#nw-world {
+    background-image: url(../assets/img/nw-world-conn.png);
+    background-position: center;
+	width: 1000px;
+    height: 750px;
+
+    padding-top: 650px;
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1.25;
+}
+
+#fb {
+	width: 1260px;
+    height: 700px;
+
+    background-image: url(../assets/img/facebook-login.jpg);
+    background-position: center;
+}
+
+#twit {
+	padding-left: 750px;
+	padding-top: 350px;
+}
+
+#gplus {
+	padding-bottom: 135px;
+}
+
+#net-min-intel {
+	width: 880px;
+    height: 500px;
+
+    background-image: url(http://www.intel.com/content/dam/www/public/us/en/images/illustrations/embedded-infographic-600-logo.jpg);
+}
+
+#net-min-intel p {
+	margin-top: 475px;
+	margin-right: 75px;
+	font-size: 0.5em;
+	text-align: right;
+}
+
+#net-RT p {
+	margin-right: 75px;
+	font-size: 0.5em;
+	text-align: right;
 }
 
 #credits {
@@ -43,24 +109,4 @@ sup {
 
 #cred-content ul ul li {
 	margin-left: 5%;
-}
-
-#fb
-{
-    width: 996px;
-    height: 470px;
-    padding-bottom: 300px;
-
-    background-image: url(../assets/img/GraphSearch_facebook.png);
-    background-position: center;
-}
-
-#bg
-{
-    width: 1114px;
-    height: 800px;
-    padding-bottom: 300px;
-
-    background-image: url(../assets/img/unicorn.jpg);
-    background-position: center;
 }
