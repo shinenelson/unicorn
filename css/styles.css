@@ -126,6 +126,16 @@ figure figcaption {
 	font-size: 0.75em;
 }
 
+#thrift {
+	font-size: 0.75em;
+	margin-bottom: 2.5%;
+}
+
+#query-lang ul li {
+	font-size: 0.35em;
+	margin-left: 7.5%;
+}
+
 #credits {
 	font-size: 1.25em;
 }
