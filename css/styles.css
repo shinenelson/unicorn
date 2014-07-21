@@ -8,6 +8,12 @@ sup {
 	font-size: small;
 }
 
+
+sub {
+	vertical-align: sub;
+	font-size: small;
+}
+
 #uni {
 	font-family: "Ozzy";
 	font-size: 1.5em;
@@ -69,6 +75,15 @@ sup {
 
 #gplus {
 	padding-bottom: 135px;
+}
+
+figure {
+	float: right;
+}
+
+figure figcaption {
+	font-size: 0.35em;
+	text-align: right;
 }
 
 #net-min-intel {
