@@ -109,6 +109,23 @@ figure figcaption {
 	text-align: center;
 }
 
+.title {
+	text-decoration: underline;
+	margin-bottom: 100px;
+}
+
+.citation {
+	font-size: small;
+}
+
+.citation sup {
+	font-size: smaller;
+}
+
+#inv-idx-adj-lst {
+	font-size: 0.75em;
+}
+
 #credits {
 	font-size: 1.25em;
 }
