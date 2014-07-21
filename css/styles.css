@@ -111,7 +111,7 @@ figure figcaption {
 
 .title {
 	text-decoration: underline;
-	margin-bottom: 100px;
+	margin-bottom: 10%;
 }
 
 .citation {
@@ -131,9 +131,20 @@ figure figcaption {
 	margin-bottom: 2.5%;
 }
 
-#query-lang ul li {
+#query-lang ul {
 	font-size: 0.35em;
 	margin-left: 7.5%;
+}
+
+#query-op p {
+	text-align: center;
+	margin-bottom: 7.5%!important;
+}
+
+#query-op ul {
+	font-size: 0.75em;
+	margin-left: 40%;
+	margin-bottom: 7.5%;
 }
 
 #credits {
