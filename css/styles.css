@@ -105,6 +105,10 @@ figure figcaption {
 	text-align: right;
 }
 
+.edge {
+	text-align: center;
+}
+
 #credits {
 	font-size: 1.25em;
 }
