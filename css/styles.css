@@ -147,6 +147,21 @@ figure figcaption {
 	margin-bottom: 7.5%;
 }
 
+#arch .title {
+	margin: auto;
+	text-align: center;
+	padding-right: 10%;
+}
+
+#arch figure {
+	float: none;
+	margin-left: 25%;
+}
+
+#arch figcaption {
+	text-align: center;
+}
+
 #credits {
 	font-size: 1.25em;
 }
