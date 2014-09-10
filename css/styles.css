@@ -160,6 +160,11 @@ figure figcaption {
 
 #arch figcaption {
 	text-align: center;
+	margin-right: 25%;
+}
+
+#arch figcaption a {
+	margin-left: 35%;
 }
 
 #credits {
