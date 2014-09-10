@@ -167,6 +167,26 @@ figure figcaption {
 	margin-left: 35%;
 }
 
+#arch-cluster .title {
+	margin: auto;
+	margin-bottom: 5%;
+	text-align: center;
+	padding-right: 10%;
+}
+
+#arch-cluster figure {
+	float: none;
+}
+
+#arch-cluster figcaption {
+	text-align: center;
+	margin-left: 60%;
+}
+
+#arch-cluster figcaption a {
+	margin-left: 54%;
+}
+
 #credits {
 	font-size: 1.25em;
 }
