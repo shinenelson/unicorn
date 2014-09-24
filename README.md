@@ -14,8 +14,11 @@ This presentation was made for my university's semester 7 seminar pursuing my un
 ##### Credits : #####
 1. Seminar Paper : [Unicorn - A System for Searching the Social Graph](https://www.facebook.com/publications/219621248185635/) - Courtesy of facebook
 2. Presentation Framework : [impressJS](https://github.com/bartaz/impress.js) - [Bartek Szopka](https://github.com/bartaz)
-3. Font : [Open-Sans](https://www.google.com/fonts/specimen/Open+Sans) 
-4. Title Font : Ozzy II
+3. Infographics :
+	* What happens in an Internet Minute : [Intel](http://www.intel.in/content/www/in/en/communications/internet-minute-infographic.html)
+	* Internet in Real Time : [PennyStocks.la](http://pennystocks.la/internet-in-real-time/)
+4. Font : [Open-Sans](https://www.google.com/fonts/specimen/Open+Sans) 
+5. Title Font : Ozzy II
 
-###### Direct Presentation Link : (https://shinescodes.github.io/unicorn) ######
-###### Download Link : (https://github.com/shinescodes/unicorn/archive/master.zip) ######
+###### Direct Presentation Link : https://shinescodes.github.io/unicorn ######
+###### Download Link : https://github.com/shinescodes/unicorn/archive/master.zip ######
