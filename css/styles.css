@@ -105,6 +105,16 @@ figure figcaption {
 	text-align: right;
 }
 
+#my-graph figure {
+	float: none;
+	margin-left: 15%;
+}
+
+#my-graph figcaption {
+	text-align: center;
+	margin-left: 25%;
+}
+
 .edge {
 	text-align: center;
 }
@@ -145,6 +155,110 @@ figure figcaption {
 	font-size: 0.75em;
 	margin-left: 40%;
 	margin-bottom: 7.5%;
+}
+
+#arch .title {
+	margin: auto;
+	text-align: center;
+	padding-right: 10%;
+}
+
+#arch figure {
+	float: none;
+	margin-left: 25%;
+}
+
+#arch figcaption {
+	text-align: center;
+	margin-right: 25%;
+}
+
+#arch figcaption a {
+	margin-left: 35%;
+}
+
+#arch-cluster .title {
+	margin: auto;
+	margin-bottom: 5%;
+	text-align: center;
+	padding-right: 10%;
+}
+
+#arch-cluster figure {
+	float: none;
+}
+
+#arch-cluster figcaption {
+	text-align: center;
+	margin-left: 60%;
+}
+
+#arch-cluster figcaption a {
+	margin-left: 54%;
+}
+
+.handler {
+	font-size: 0.35em;
+	text-align: right;
+	text-decoration: none;
+	margin: -10% 7.5% 2.5% 0;
+}
+
+.alg {
+	font-size: 0.5em;
+	margin-bottom: 2.5%;
+	margin-left: 20%;
+}
+
+.alg li {
+	padding-left: 1%;
+}
+
+.call {
+	font-style: bolder;
+	font-size: 1.05em;
+}
+
+.courtesy {
+	font-size: 0.35em;
+	text-align: right;
+}
+
+#apply #apply-proc li:nth-child(even), #apply li:nth-child(3n), #apply li:nth-child(7) {
+	padding-left: 5%;
+}
+
+#apply li:nth-child(5), #apply li:nth-child(6), #apply #search-proc li:nth-child(2) {
+	padding-left: 10%;
+}
+
+#apply #search-proc li:nth-child(4) {
+	padding-left: auto;
+}
+
+#extract .handler {
+	margin-right: 0%;
+}
+
+#extract .alg {
+	margin-top: 7.5%;
+	margin-bottom: 5%;
+}
+
+#extract li:nth-child(even), #extract li:nth-child(3n), #extract li:nth-child(5) {
+	padding-left: 5%;
+}
+
+#extract li:nth-child(6), #extract li:nth-child(7) {
+	padding-left: 10%;
+}
+
+#extract li:nth-child(10) {
+	padding-left: 1%;
+}
+
+#extract .courtesy {
+	margin-right: 10%;
 }
 
 #credits {

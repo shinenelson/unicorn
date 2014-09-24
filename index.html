@@ -81,7 +81,7 @@
 
 			<div id="my-graph" class="step" data-x="6000" data-y="3000" data-z="3500">
 				<figure>
-					<img alt="my-graph" src="assets/img/GraphCanvas_Crop.png" />
+					<img alt="my-graph" src="assets/img/GraphCanvas.png" />
 					<figcaption>Courtesy : <a href="https://app.friendsgraph.me/" target="_blank">FriendsGraph</a></figcaption>
 				</figure>
 			</div>
@@ -149,6 +149,69 @@
 					<li>AND</li>
 					<li>DIFFERENCE</li>
 				</ul>
+			</div>
+
+			<div id="arch" class="step" data-x="10500" data-y="10000" data-z="4500">
+				<p class="title">Architecture</p>
+				<figure>
+					<img alt="unicorn architecture" src="assets/img/architecture.png" />
+					<figcaption>Courtesy : Figure 3 <br><a href="https://www.facebook.com/publications/219621248185635/" target="_blank">Unicorn</a> - facebook</figcaption>
+				</figure>
+			</div>
+
+			<div id="arch-cluster" class="step" data-x="12500" data-y="12000" data-z="6000">
+				<p class="title">Architecture - Clustering</p>
+				<figure>
+					<img alt="unicorn architecture" src="assets/img/arch_cluster.png" />
+					<figcaption>Courtesy : Figure 4 <br><a href="https://www.facebook.com/publications/219621248185635/" target="_blank">Unicorn</a> - facebook</figcaption>
+				</figure>
+			</div>
+
+			<div id="apply" class="step" data-x="10000" data-y="15000">
+				<p class="title">ALGORITHM : <strong>APPLY</strong> Operator</p>
+				<p class="handler">Handled by Top Aggregator</p>
+
+				<ol id="apply-proc" class="alg">
+					<li><strong>procedure</strong> <span class="call">APPLY</span> (<em> prefix, innerQ </em>)</li>
+					<li><em>innerResults</em> &#8592; <span class="call">SEARCH</span> (<em> innerQ </em>)</li>
+					<li><em>outerQ &#8592; "(or"</em></li>
+					<li><strong>for each</strong> <em>result</em> in <em>innerResults</em> <strong>limit</strong> <em>L</em> <strong>do</strong></li>
+					<li><em>term</em> &#8592; <span class="call">CONCAT</span> (<em> prefix, ":", result.id </em>)</li>
+					<li><em>outerQ</em> &#8592; <span class="call">CONCAT</span> (<em> outerQ, " ", term </em>)</li>
+					<li><strong>end for</strong></li>
+					<li><em>outerQ</em> &#8592; <span class="call">CONCAT</span> (<em> outerQ, ")" </em>)</li>
+					<li><em>outerResults</em> &#8592; <span class="call">SEARCH</span> (<em> outerQ </em>)</li>
+					<li><strong>return</strong> <em>outerResults</em></li>
+					<li><strong>end procedure</strong></li>
+				</ol>
+				<ol id="search-proc" class="alg">
+					<li><strong>procedure</strong> <span class="call">SEARCH</span> (<em> query </em>)</li>
+					<li>&#9655; Fetches query results from leaves and merges</li>
+					<li><strong>return</strong> <em>results</em></li>
+					<li><strong>end procedure</strong></li>
+				</ol>
+				
+				<p class="courtesy">Courtesy : Algorithm 1 <br><a href="https://www.facebook.com/publications/219621248185635/" target="_blank">Unicorn</a> - facebook</p>
+			</div>
+
+			<div id="extract" class="step" data-x="12500" data-y="15000">
+				<p class="title">ALGORITHM : <strong>EXTRACT</strong> Operator</p>
+				<p class="handler">Handled by Index Server</p>
+
+				<ol class="alg">
+					<li><strong>procedure</strong> <span class="call">EXTRACT</span> (<em> query, extractKey </em>)</li>
+					<li><em>extractSet &#8592; None</em></li>
+					<li><em>eKey &#8592; extractKey</em></li>
+					<li><em>iter = execute ( query )</em></li>
+					<li><strong>for each</strong> <em>result</em> in <em>iter</em> <strong>do</strong></li>
+					<li><em>e</em> = <span class="call">LOOKUP</span> (<em> fwdIndex, result.id, eKey </em>)</li>
+					<li><span class="call">INSERT</span> (<em> extractSet, e </em>)</li>
+					<li><strong>end for</strong></li>
+					<li><strong>return</strong> <em>extractSet.results</em></li>
+					<li><strong>end procedure</strong></li>
+				</ol>
+				
+				<p class="courtesy">Courtesy : Algorithm 2 <br><a href="https://www.facebook.com/publications/219621248185635/" target="_blank">Unicorn</a> - facebook</p>
 			</div>
 
 			<div id="credits" class="step" data-x="5500">
