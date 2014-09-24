@@ -197,17 +197,31 @@ figure figcaption {
 	margin-left: 54%;
 }
 
-#apply .handler {
+.handler {
 	font-size: 0.35em;
 	text-align: right;
 	text-decoration: none;
 	margin: -10% 7.5% 2.5% 0;
 }
 
-#apply .alg {
+.alg {
 	font-size: 0.5em;
 	margin-bottom: 2.5%;
-	margin-left: 15%;
+	margin-left: 20%;
+}
+
+.alg li {
+	padding-left: 1%;
+}
+
+.call {
+	font-style: bolder;
+	font-size: 1.05em;
+}
+
+.courtesy {
+	font-size: 0.35em;
+	text-align: right;
 }
 
 #apply #apply-proc li:nth-child(even), #apply li:nth-child(3n), #apply li:nth-child(7) {
@@ -222,9 +236,28 @@ figure figcaption {
 	padding-left: auto;
 }
 
-#apply #courtesy {
-	font-size: 0.35em;
-	text-align: right;
+#extract .handler {
+	margin-right: 0%;
+}
+
+#extract .alg {
+	margin-top: 7.5%;
+	margin-bottom: 5%;
+}
+
+#extract li:nth-child(even), #extract li:nth-child(3n), #extract li:nth-child(5) {
+	padding-left: 5%;
+}
+
+#extract li:nth-child(6), #extract li:nth-child(7) {
+	padding-left: 10%;
+}
+
+#extract li:nth-child(10) {
+	padding-left: 1%;
+}
+
+#extract .courtesy {
 	margin-right: 10%;
 }
 
