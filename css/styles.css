@@ -105,6 +105,16 @@ figure figcaption {
 	text-align: right;
 }
 
+#my-graph figure {
+	float: none;
+	margin-left: 15%;
+}
+
+#my-graph figcaption {
+	text-align: center;
+	margin-left: 25%;
+}
+
 .edge {
 	text-align: center;
 }
