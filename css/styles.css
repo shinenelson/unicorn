@@ -197,6 +197,37 @@ figure figcaption {
 	margin-left: 54%;
 }
 
+#apply .handler {
+	font-size: 0.35em;
+	text-align: right;
+	text-decoration: none;
+	margin: -10% 7.5% 2.5% 0;
+}
+
+#apply .alg {
+	font-size: 0.5em;
+	margin-bottom: 2.5%;
+	margin-left: 15%;
+}
+
+#apply #apply-proc li:nth-child(even), #apply li:nth-child(3n), #apply li:nth-child(7) {
+	padding-left: 5%;
+}
+
+#apply li:nth-child(5), #apply li:nth-child(6), #apply #search-proc li:nth-child(2) {
+	padding-left: 10%;
+}
+
+#apply #search-proc li:nth-child(4) {
+	padding-left: auto;
+}
+
+#apply #courtesy {
+	font-size: 0.35em;
+	text-align: right;
+	margin-right: 10%;
+}
+
 #credits {
 	font-size: 1.25em;
 }
